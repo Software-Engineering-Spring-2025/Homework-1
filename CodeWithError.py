@@ -16,3 +16,7 @@ elif operation == '-': print(f"Result: {subtract(num1, num2)}")
 elif operation == '*': print(f"Result: {multiply(num1, num2)}")
 elif operation == '/': print(f"Result: {divide(num1, num2)}")
 else: print(f"Invalid operation: {operation}")
+
+
+## I need a syntax error for the hover feature to work
+print(hello world
