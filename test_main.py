@@ -1,15 +1,16 @@
 # test_main.py
 
-from main import add_numbers
+from main import caller
 
-def test_add_numbers_pass():
+def test_pass():
     """
     This test should pass because 2 + 3 = 5.
     """
-    assert add_numbers(2, 3) == 5
+    assert caller('+', 2, 3) == 5
 
-def test_add_numbers_fail():
+def test_fail():
     """
-    This test will deliberately fail because 2 + 2 ≠ 5.
+    This test will deliberately fail because division by should not be possible
     """
-    assert add_numbers(2, 2) == 5
+    caller('/', 2, 0)
+    assert caller('+', '2', '3') == '5'
