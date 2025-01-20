@@ -1,0 +1,19 @@
+{
+  "Python": {
+    "linter": "flake8",
+    "install": "pip install flake8"
+  },
+  "JavaScript": {
+    "linter": "eslint",
+    "install": "npm install -g eslint"
+  },
+  "Go": {
+    "linter": "golint",
+    "install": "go install golang.org/x/lint/golint@latest"
+  },
+  "Shell": {
+    "linter": "shellcheck",
+    "install": "sudo apt-get install -y shellcheck"
+  }
+}
+

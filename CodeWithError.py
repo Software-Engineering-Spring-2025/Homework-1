@@ -19,4 +19,4 @@ else: print(f"Invalid operation: {operation}")
 
 
 ## I need a syntax error for the hover feature to work
-print(hello world
+#print(hello world
