@@ -19,4 +19,5 @@ else: print(f"Invalid operation: {operation}")
 
 
 ## I need a syntax error for the hover feature to work
-print(hello world
+# commenting the error used in screenshot generation to pass the linter
+# print(hello world
